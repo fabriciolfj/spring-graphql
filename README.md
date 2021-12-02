@@ -30,3 +30,17 @@
 }
 ```
 - endpoint: http://localhost:8080/graphql
+- Faça o download do playground graphql, vincule o endpoint acima e execute a consulta:
+```
+# Write your query or mutation here
+{
+  bookById(id:"book-1"){
+    id
+    name
+    author {
+      firstName
+    }
+  }
+}
+```
+  - https://github.com/graphql/graphql-playground
